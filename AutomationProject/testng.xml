@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite" thread-count="2" parallel="tests">
+
+    <test name="TestSuit4" parallel="tests" >
+        <classes>
+            <class name="Tests.RegistrationTest" />
+        </classes>
+    </test>
+    <test name="TestSuit5" parallel="tests" >
+        <classes>
+            <class name="Tests.CheckBoxTest"/>
+        </classes>
+    </test>
+    <test name="TestSuit6" parallel="tests" >
+        <classes>
+            <class name="Tests.ChooseFileTest"/>
+        </classes>
+    </test>
+    <test name="TestSuit7" parallel="tests" >
+        <classes>
+            <class name="Tests.MainPageTest"/>
+        </classes>
+    </test>
+    <test name="TestSuit8" parallel="tests" >
+        <classes>
+            <class name="Tests.RadioButtonsTest"/>
+        </classes>
+    </test>
+    <test name="TestSuit9" parallel="tests" >
+        <classes>
+            <class name="Tests.SelectOptionTest"/>
+        </classes>
+    </test>
+
+</suite>
